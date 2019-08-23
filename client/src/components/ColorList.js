@@ -97,8 +97,6 @@ const ColorList = ({ colors, updateColors }) => {
         </form>
       )}
 
-      
-
       <form onSubmit={addColor}>
           <legend>add color</legend>
           <label>
