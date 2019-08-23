@@ -32,7 +32,7 @@ validationSchema: Yup.object().shape({
   .then(res => {
     console.log(res.data.payload);
     localStorage.setItem('token', res.data.payload);
-    props.history.push('/');
+    props.history.push('/bubblepage');
   })
   .catch(err => console.log(err.response));
   }
